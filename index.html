@@ -11,22 +11,20 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap" rel="stylesheet">
-
-    <script src="./script.js"></script>
   </head>
-  <body>
+  <body id="lightMode"  id="darkMode" >
     <!-- upper pager -->
     <div class="top">
-      <button id="darkMode" onclick="darkMode()">Dark Mode</button>
+      <button onclick="dark()">Dark Mode</button>
       <h1>hi i'm yonatan</h1>
       <h2>a <span id="underLine">web</span> dev</h2>
       <img id="rocket" />
       <img id="sparkles1" />
       <img id="sparkles2" />
     </div>
-
+    
     <!-- MIDDLE PAGE -->
-    <div class="middle" id="bg">
+    <div class="middle" >
       <div class="aboutMe">
         <img id="avatar" />
         <h3>HI and Nice to Meet</h3>
@@ -36,9 +34,9 @@
         </p>
       </div>
       <hr />
-      <div class="skills">
+      <div class="skills" >
         <h3>my skilles</h3>
-        <div class="border">
+        <div class="border" id="darkMode">
           <h4 id="underLine">Technological Skilles</h4>
           <img id="head"/>
           <ul>
@@ -48,7 +46,7 @@
           </ul>
        
         </div>
-        <div class="border">
+        <div class="border" id="lightMode" id="darkMode" >
           <h4 id="underLine">Experience</h4>
           <img id="loading"/>
           <ul>
@@ -56,7 +54,7 @@
      
           </ul>
           </div>
-        <div class="border">
+          <div class="border" id="darkMode">
           <h4 id="underLine">Education</h4>
           <img id="pencil"/>
           <ul>
@@ -67,11 +65,12 @@
           
         </div>
         <hr>
-        <h3>Get in Touch</h3>
+       
       </div>
       
     <!-- lower page -->
   <div class="lower">
+    <h3>Get in Touch</h3>
     <a href="https://www.linkedin.com/in/yonatan-navaro-106637135/"><img id="linkedin"/></a>
     <a href="https://github.com/Yonatan-Navaro"><img id="github"/></a>
   </br>
@@ -79,5 +78,6 @@
     <p>Yonatan Navaro®</p>
 
   </div>
+  <script src="./script.js"></script>
   </body>
 </html>
